@@ -1,219 +1,1239 @@
 <!doctype html>
 <html lang="en">
-  <head>
+	<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>SC&DEGENER</title>
     <!-- Bootstrap CSS Minified -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="index.css">
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css">
-    <title>SC&DEGENER</title>
-  </head>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.0/css/all.css"> -->
+    
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
+			integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- <link rel="stylesheet" href="css/reset.css" /> -->
+		<link rel="stylesheet" href="css/variable.css" />
+		<!-- <link rel="stylesheet" href="css/header.css" /> -->
+		<link rel="stylesheet" href="css/navigation.css" />
+		<link rel="stylesheet" href="css/section.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
+		<!-- .md -->
+
+		<!-- <link rel="stylesheet" type="text/css" href="css/superslides.css"> -->
+		<!-- <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css"> -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- Fontawesome Clean it up delete on of the links PENDING -->
+
+		<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous"> -->
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
+		<!-- Fontawesome -->
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- / .md -->
+
+	</head>
   <body data-spy="scroll" data-target="#navbar" data-offset="56">
-    
-    <!-- Header -->
-    <header class="blueBG">
+		
+		<div class="blur__overlay"></div>
+
+			<header class="blueBG">
       
-      <nav id="header" class="navbar navbar-expand-lg navbar-dark blueBG fixed-top"> <!-- Navbar -->
-      <div class="container"> <!-- Container -->
-      <a class="navbar-brand" href="#">
-        <img src="assets/images/SC&D-logo.svg" alt="SCD logo">
-        SC<span class="ampersand">&</span>DEGENER</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbar">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-          </li>
+				<nav id="header" class="navbar navbar-expand-lg navbar-dark blueBG fixed-top"> <!-- Navbar -->
+				<div class="container"> <!-- Container -->
+				<a class="navbar-brand" href="#">
+					<img src="assets/images/SC&D-logo.svg" alt="SCD logo">
+					SC<span class="ampersand">&</span>DEGENER</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+						</li>
+	
+	
+	
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								About
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="about.html">About</a>
+								<a class="dropdown-item" href="#">About</a>
+								<a class="dropdown-item" href="#">Who</a>
+								<a class="dropdown-item" href="#">Values</a>
+							</div>
+						</li>
+	
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Solutions
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="solutions.html">Solutions</a>
+								<a class="dropdown-item" href="#">Communications & PR</a>
+								<a class="dropdown-item" href="#">Events</a>
+								<a class="dropdown-item" href="#">Marketing</a>
+								<a class="dropdown-item" href="#">Industry</a>
+							</div>
+						</li>
+	
+						<li class="nav-item">
+							<a class="nav-link" href="#insights">Insights</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#careers">Careers</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-scd" href="#contactForm">Contact</a>
+						</li>
+	
+					</ul>
+				</div>
+			</div> <!-- / Container -->
+			</nav> <!-- / Navbar -->
+	
+			</header>
 
 
+			<!-- Bug if deleted -->
+			<!-- Figure out how to manage it furtherly -->
+			<div class="header__right">
+				<a class="header__nav__btn" href="#">shop</a>
+				<a class="header__nav__btn" href="#">account</a>
+				<a class="header__nav__btn menu__btn" href="#">menu</a>
+			</div>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              About
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="about.html">About</a>
-              <a class="dropdown-item" href="#">Who</a>
-              <a class="dropdown-item" href="#">Values</a>
-            </div>
-          </li>
+		<nav class="navigation">
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Solutions
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Communications & PR</a>
-              <a class="dropdown-item" href="#">Events</a>
-              <a class="dropdown-item" href="#">Marketing</a>
-              <a class="dropdown-item" href="#">Industry</a>
-            </div>
-          </li>
+			<!-- The layout breaks once the below its commented -->
+			<div class="close__btn__container">
+				<img class="navigation__close__btn" src="./assets/images/solutions-scroll/close_icon.svg" alt="" />
+			</div>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#insights">Insights</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#careers">Careers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-scd" href="#contactForm">Contact</a>
-          </li>
+		</nav>
 
-        </ul>
-      </div>
-    </div> <!-- / Container -->
-    </nav> <!-- / Navbar -->
+		<section id="fullpage">
+			<section class="section one">
+				<div class="section__content">
+					<h1 class="section__content__title text-uppercase solutions-hero-h1">Our Solutions</h1>
+					<h2 class="section__content__subtitle">
+						Lorem, ipsum <a href="#">sit amet consectetur.</a>
+					</h2>
+				</div>
 
-    </header>
-      
-    <!-- / Header -->
+				<div class="section__action__container">
+					<a class="section__action__btn action__btn__primary" href="#"
+						>Learn more</a
+					>
+					<a class="section__action__btn action__btn__secondary" href="#"
+						>Blog</a
+					>
+				</div>
 
-    <!-- Main -->
-    <section id="main">
-      <div class="jumbotron jumbotron-fluid height100p banner" id="solutions">
-        <div class="container h100">
-          <div class="contentBox h100">
-            <div>
-              <h1>Lorem, ipsum dolor.</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, neque culpa, maiores corrupti placeat nemo in soluta quisquam et porro omnis error est quis possimus sint dignissimos sequi dolor repellat.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- / Main -->
+			</section>
 
-  <!-- Section-1 -->
-  <section class="sec1" id="section-1">
-    <div class="container">
+			<section class="section two">
+
+				<div class="section__content">
+
+					<!-- <h1 class="section__content__title text-contrast-bg solutions-hero-h2">Communication <br> and Public Relations</h1> -->
+
+
+    <div class="container-fluid">
       <div class="row">
-        <div class="offset-sm-2 col-sm-8">
-          <div class="headerText text-center">
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis a ea eaque ratione porro voluptatem accusamus reiciendis. Adipisci, ab natus ipsa soluta culpa, doloremque debitis quos nisi, vitae hic commodi.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="placeBox">
-            <div class="imgBx">
-              <img src="assets/images/insights/AgricultureFarming.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="content">
-              <h3>Lorem, ipsum <br> <span>lorem</span> .</h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="placeBox">
-            <div class="imgBx">
-              <img src="assets/images/insights/Automotive.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="content">
-              <h3>Lorem, ipsum <br> <span>lorem</span> .</h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="placeBox">
-            <div class="imgBx">
-              <img src="assets/images/insights/BeverageFood.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="content">
-              <h3>Lorem, ipsum <br> <span>lorem</span> .</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- / Insights -->
-  
-  <!-- Section-2 -->
-  <section  class="sec2" id="section-2">
-  </section>
-  <!-- / Careers -->
 
-  <!-- <abbr data-toggle="tooltip" title="arouse or inflame">Ignite</abbr> -->
- 
-  <!-- Form -->
-  <section id="" class="">
-  </section>
-  <!-- / Form -->
+        
 
-<footer id="footer" class="pb-4 pt-4"> <!-- Footer -->
-  <div class="container">
-    <div class="row text-center">
-      <div class="col-12 col-lg">
-        <a href="#">About</a>
-      </div>
-      <div class="col-12 col-lg">
-        <a href="#">Solutions</a>
-      </div>
-      <div class="col-12 col-lg">
-        <a href="#">Insights</a>
-      </div>
-      <div class="col-12 col-lg">
-        <a href="#">Careers</a>
-      </div>
-      <div class="col-12 col-lg">
-        <a href="#">Contact</a>
-      </div>
-    </div>
-  </div>
-</footer> <!-- / Footer -->
+        <div class="col-12 col-lg-6 pt-4 pb-4">
+          <div class="row">
+            <div class="col">
+							<h1 class="section__content__title text-contrast-bg solutions-hero-h2">Communication <br> and Public Relations</h1>
+              <!-- <h2 class="careers-h2"><span class="careers-span">Communication and Public Relations</span></h2> -->
+              <div class="col mt-5 blue-turquoise-gradient-transparent-BG p-5">
 
-<!-- Modal -->
-<div class="modal fade" id="modalSCD" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Contact us</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-row">
-            <div class="form-group col">
-              <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1">@</span>
-                </div>
-                <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+                <p class="careers-p text-left" >We will be your strategic communications partner, following you throughout all the steps until we reach any desired goal.<span class="spark3-text"></span>
+                  <br>
+                  We will make your brand powerfully express what it stands for and create real connections with your audience.
+                  <span class="spark2-text"></span></p>
               </div>
             </div>
           </div>
-        </form>
-        <div class="alert alert-warning" role="alert">
-          You will receive a notification email!
+
+          <!-- <a class='btn btn-outline-light text-uppercase' target='_blank' href="https://www.linkedin.com/company/scdegener/">Work with us</a> -->
+
         </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary-scd" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary-scd">Drop us a line</button>
+
+        <div class="col-12 col-lg-6 pl-0 pr-0">
+
+          <div class="overlay"> <!-- Overlay -->
+
+            <div class="container"> <!-- / Container -->
+              <div class="row mt-5">
+                <div class="col mt-3"></div>
+              </div>
+              <div class="row mt-5"> <!-- Row -->
+                
+                <div class="col mt-5">
+
+									<!-- Options cons will be within here -->
+
+									<!-- //////////////////////////////// -->
+
+
+	<!-- services -->
+	
+	<!-- <div id="services" class="servicesSection section"> -->
+
+		<div class="container">
+
+			<div class="row">
+
+				
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<!-- <i class="fas fa-clipboard"></i> -->
+								<i class="fa-solid fa-chart-pie"></i>
+							</div>
+							<div class="squareContent">
+                                <h4 class="">Data Analysis</h4>
+                                <h3>Communication</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-chess-queen"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Strategy</h4>
+																<h3>Communication</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-tower-cell"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Communication</h4>
+																<h3>Management</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-weight-hanging"></i>							</div>
+							<div class="squareContent">
+																<h4 class="">Measurement</h4>
+																<h3>Impact</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="row">
+
+				
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-award"></i>							</div>
+							<div class="squareContent">
+                                <h4 class="">Reputation</h4>
+                                <h3>Corporate</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-list-check"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Management</h4>
+																<h3>Issues and Crisis</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-bullseye"></i>						
+							</div>
+							<div class="squareContent">
+																<h4 class="">ESG and Purpose</h4>
+																<h3>Communication</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-hashtag"></i>							</div>
+							<div class="squareContent">
+																<h4 class="">Social Media</h4>
+																<h3>Management</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+	<!-- </div> -->
+
+
+	<!-- / services -->
+
+
+
+                  <!-- <p class="careers-p" >We will be your strategic communications partner, following you throughout all the steps until we reach any desired goal.<span class="spark3-text"></span>
+                    <br>
+                    We will make your brand powerfully express what it stands for and create real connections with your audience.
+                    <span class="spark2-text"></span></p> -->
+										
+                </div>
+
+              </div> <!-- / Row -->
+  
+          </div> <!-- / Container -->
+        </div> <!-- / Overlay -->
+  
+        <!-- <img src="assets/images/careers.jpg" alt="section-3 photo"> -->
+        <!-- <img src="assets/images/about/about.jpg" alt="section-3 photo"> -->
+
+        </div>
+
       </div>
     </div>
-  </div>
-</div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!-- <script src="JS/bootstrap.min.js"></script>
-    <script src="JS/index.js"></script> -->
-  </body>
+
+					<!-- <div class="container">
+						<div class="row">
+							<div class="col-md-6 pt-5 offset-3">
+								<h2 class="section__content__subtitle text-contrast-bg p-4 text-left">We will be your strategic communications partner, following you throughout all the steps until we reach any desired goal. We will make your brand powerfully express what it stands for and create real connections with your audience.<a href="#">Lorem</a>
+								</h2>
+							</div>
+						</div>
+					</div> -->
+
+				</div>
+
+				<!-- <div class="section__action__container">
+					<a class="btn section__action__btn action__btn__primary btn-primary-scd" href="#"
+						>Learn more</a>
+					<a class="section__action__btn action__btn__secondary" href="#"
+						>Blog</a>
+				</div> -->
+				
+			</section>
+
+			<section class="section three">
+
+				<div class="section__content">
+
+					<!-- <h1 class="section__content__title text-contrast-bg solutions-hero-h2">Communication <br> and Public Relations</h1> -->
+
+
+    <div class="container-fluid">
+      <div class="row">
+
+        
+
+        <div class="col-12 col-lg-6 pt-4 pb-4">
+          <div class="row">
+            <div class="col">
+							<h1 class="section__content__title text-contrast-bg solutions-hero-h2">Events</h1>
+              <!-- <h2 class="careers-h2"><span class="careers-span">Communication and Public Relations</span></h2> -->
+              <div class="col mt-5 blue-turquoise-gradient-transparent-BG p-5">
+
+                <p class="careers-p text-left" >We will create any kind of corporate, entertainment or social event that will <span class="spark4-text">exceed</span> all expectations.
+                  <br>
+                  We will optimize your time and create a concept from the beginning, leading the production of the event at all the 
+                  <span class="spark4-text">different stages.</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <a class='btn btn-outline-light text-uppercase' target='_blank' href="https://www.linkedin.com/company/scdegener/">Work with us</a> -->
+
+        </div>
+
+        <div class="col-12 col-lg-6 pl-0 pr-0">
+
+          <div class="overlay"> <!-- Overlay -->
+
+            <div class="container"> <!-- / Container -->
+              <div class="row mt-5">
+                <div class="col mt-3"></div>
+              </div>
+              <div class="row mt-5"> <!-- Row -->
+                
+                <div class="col mt-5">
+
+									<!-- Options cons will be within here -->
+
+									<!-- //////////////////////////////// -->
+
+
+	<!-- services -->
+	
+	<!-- <div id="services" class="servicesSection section"> -->
+
+		<div class="container">
+
+			<div class="row">
+
+				
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-seedling"></i>							</div>
+							<div class="squareContent">
+                                <h4 class="">Planning</h4>
+                                <h3>Event</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-calendar-check"></i>							</div>
+							<div class="squareContent">
+																<h4 class="">Venue</h4>
+																<h3>Management</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-boxes-packing"></i>							</div>
+							<div class="squareContent">
+																<h4 class="">Suppliers</h4>
+																<h3>Selection of</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-people-group"></i>							</div>
+							<div class="squareContent">
+																<h4 class="">Special Guests</h4>
+																<h3>Team and</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="row">
+
+				
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-clipboard-user"></i>							</div>
+							<div class="squareContent">
+                                <h4 class="">Staff</h4>
+                                <h3>Management</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-truck"></i>							</div>
+							<div class="squareContent">
+																<h4 class="">Delivery</h4>
+																<h3>Event</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-vr-cardboard"></i>							</div>
+							<div class="squareContent">
+																<h4 class="">Virtual</h4>
+																<h3>Events</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fas fa-code"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Social Media</h4>
+																<h3>Management</h3>
+                            </div>
+						</div>
+					</div>
+				</div> -->
+
+
+			</div>
+
+		</div>
+
+	<!-- </div> -->
+
+
+	<!-- / services -->
+
+
+
+                  <!-- <p class="careers-p" >We will be your strategic communications partner, following you throughout all the steps until we reach any desired goal.<span class="spark3-text"></span>
+                    <br>
+                    We will make your brand powerfully express what it stands for and create real connections with your audience.
+                    <span class="spark2-text"></span></p> -->
+										
+                </div>
+
+              </div> <!-- / Row -->
+  
+          </div> <!-- / Container -->
+        </div> <!-- / Overlay -->
+  
+        <!-- <img src="assets/images/careers.jpg" alt="section-3 photo"> -->
+        <!-- <img src="assets/images/about/about.jpg" alt="section-3 photo"> -->
+
+        </div>
+
+      </div>
+    </div>
+    
+
+					<!-- <div class="container">
+						<div class="row">
+							<div class="col-md-6 pt-5 offset-3">
+								<h2 class="section__content__subtitle text-contrast-bg p-4 text-left">We will be your strategic communications partner, following you throughout all the steps until we reach any desired goal. We will make your brand powerfully express what it stands for and create real connections with your audience.<a href="#">Lorem</a>
+								</h2>
+							</div>
+						</div>
+					</div> -->
+
+				</div>
+
+				<!-- <div class="section__action__container">
+					<a class="btn section__action__btn action__btn__primary btn-primary-scd" href="#"
+						>Learn more</a>
+					<a class="section__action__btn action__btn__secondary" href="#"
+						>Blog</a>
+				</div> -->
+
+			</section>
+
+			<section class="section four">
+
+				<div class="section__content">
+
+					<!-- <h1 class="section__content__title text-contrast-bg solutions-hero-h2">Communication <br> and Public Relations</h1> -->
+
+
+    <div class="container-fluid">
+      <div class="row">
+
+        
+
+        <div class="col-12 col-lg-6 pt-4 pb-4">
+          <div class="row">
+            <div class="col">
+							<h1 class="section__content__title text-contrast-bg solutions-hero-h2">Marketing</h1>
+              <!-- <h2 class="careers-h2"><span class="careers-span">Communication and Public Relations</span></h2> -->
+              <div class="col mt-5 blue-turquoise-gradient-transparent-BG p-5">
+
+                <p class="careers-p text-left" >We make you
+									<span class="spark4-text"> shine.</span>
+                  <br>
+                  We promote your brand leveraging any
+									<span class="spark4-text">digital</span> channel.
+									<br>
+									We grant an <span class="spark4-text">extraordinary experience</span> to your customer throughout the journey with you.</p>
+                  
+              </div>
+            </div>
+          </div>
+
+          <!-- <a class='btn btn-outline-light text-uppercase' target='_blank' href="https://www.linkedin.com/company/scdegener/">Work with us</a> -->
+
+        </div>
+
+        <div class="col-12 col-lg-6 pl-0 pr-0">
+
+          <div class="overlay"> <!-- Overlay -->
+
+            <div class="container"> <!-- / Container -->
+              <div class="row mt-5">
+                <div class="col mt-3"></div>
+              </div>
+              <div class="row mt-5"> <!-- Row -->
+                
+                <div class="col mt-5">
+
+									<!-- Options cons will be within here -->
+
+									<!-- //////////////////////////////// -->
+
+
+	<!-- services -->
+	
+	<!-- <div id="services" class="servicesSection section"> -->
+
+		<div class="container">
+
+			<div class="row">
+
+				
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-chart-line"></i>							
+							</div>
+							<div class="squareContent">
+																<h4 class="">Analytics</h4>
+																<h3>Market</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-chess"></i>							
+							</div>
+							<div class="squareContent">
+																<h4 class="">Strategic</h4>
+																<h3>Marketing Plan</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-arrows-spin"></i>							
+							</div>
+							<div class="squareContent">
+																<h4 class="">Implementation</h4>
+																<h3>Marketing</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-photo-film"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Media and Ad</h4>
+																<h3>Operations</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="row">
+
+				
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-hotel"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Model</h4>
+																<h3>Scouting</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fas fa-pencil-alt"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Scouting</h4>
+																<h3>Scouting</h3>
+                            </div>
+						</div>
+					</div>
+				</div> -->
+
+				<!-- <div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fas fa-object-ungroup"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">ESG and Purpose</h4>
+																<h3>Communication</h3>
+                            </div>
+						</div>
+					</div>
+				</div> -->
+
+				<!-- <div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fas fa-code"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Social Media</h4>
+																<h3>Management</h3>
+                            </div>
+						</div>
+					</div>
+				</div> -->
+
+
+			</div>
+
+		</div>
+
+
+	<!-- </div> -->
+
+
+	<!-- / services -->
+
+
+
+                  <!-- <p class="careers-p" >We will be your strategic communications partner, following you throughout all the steps until we reach any desired goal.<span class="spark3-text"></span>
+                    <br>
+                    We will make your brand powerfully express what it stands for and create real connections with your audience.
+                    <span class="spark2-text"></span></p> -->
+										
+                </div>
+
+              </div> <!-- / Row -->
+  
+          </div> <!-- / Container -->
+        </div> <!-- / Overlay -->
+  
+        <!-- <img src="assets/images/careers.jpg" alt="section-3 photo"> -->
+        <!-- <img src="assets/images/about/about.jpg" alt="section-3 photo"> -->
+
+        </div>
+
+      </div>
+    </div>
+    
+
+					<!-- <div class="container">
+						<div class="row">
+							<div class="col-md-6 pt-5 offset-3">
+								<h2 class="section__content__subtitle text-contrast-bg p-4 text-left">We will be your strategic communications partner, following you throughout all the steps until we reach any desired goal. We will make your brand powerfully express what it stands for and create real connections with your audience.<a href="#">Lorem</a>
+								</h2>
+							</div>
+						</div>
+					</div> -->
+
+				</div>
+
+				<!-- <div class="section__action__container">
+					<a class="btn section__action__btn action__btn__primary btn-primary-scd" href="#"
+						>Learn more</a>
+					<a class="section__action__btn action__btn__secondary" href="#"
+						>Blog</a>
+				</div> -->
+
+			</section>
+
+			<section class="section five">
+
+				<div class="section__content">
+
+					<!-- <h1 class="section__content__title text-contrast-bg solutions-hero-h2">Communication <br> and Public Relations</h1> -->
+
+
+    <div class="container-fluid">
+      <div class="row">
+
+        
+
+        <div class="col-12 col-lg-6 pt-4 pb-4">
+          <div class="row">
+            <div class="col">
+							<h1 class="section__content__title text-contrast-bg solutions-hero-h2">Industry</h1>
+              <!-- <h2 class="careers-h2"><span class="careers-span">Communication and Public Relations</span></h2> -->
+              <div class="col mt-5 blue-turquoise-gradient-transparent-BG p-5">
+
+                <p class="careers-p text-left" >We leverage our expertise, apply our know-how and give our contribution to companies in several different areas and sectors.
+									<br>
+									Thanks to our <span class="spark4-text">dynamic team,</span>
+									we operate and adapt our knowledge in a multitude of industries.
+                  <br>
+                  We will make your brand powerfully express what it stands for and create <span class="spark4-text"> real connections</span> with your audience.</p>
+                  
+              </div>
+            </div>
+          </div>
+
+          <!-- <a class='btn btn-outline-light text-uppercase' target='_blank' href="https://www.linkedin.com/company/scdegener/">Work with us</a> -->
+
+        </div>
+
+        <div class="col-12 col-lg-6 pl-0 pr-0">
+
+          <div class="overlay"> <!-- Overlay -->
+
+            <div class="container"> <!-- / Container -->
+              <!-- <div class="row">
+                <div class="col"></div>
+              </div> -->
+              <div class="row"> <!-- Row -->
+                
+                <div class="col">
+
+									<!-- Options cons will be within here -->
+
+									<!-- //////////////////////////////// -->
+
+
+	<!-- services -->
+	
+	<!-- <div id="services" class="servicesSection section"> -->
+
+		<div class="container">
+
+			<div class="row">
+
+				
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-cow"></i>
+							</div>
+							<div class="squareContent">
+                                <h4 class="">Agriculture</h4>
+                                <h3>& farming</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-car"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Automotive</h4>
+																<!-- <h3>Communication</h3> -->
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-champagne-glass"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Beverage</h4>
+																<h3>& Food</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-fire-flame-simple"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Energy</h4>
+																<!-- <h3>Impact</h3> -->
+                            </div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="row">
+
+				
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-heart"></i>
+							</div>
+							<div class="squareContent">
+                                <h4 class="">Entertainment</h4>
+                                <!-- <h3>Corporate</h3> -->
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-user-tie"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Fashion</h4>
+																<h3>& Beauty</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-coins"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Finance</h4>
+																<!-- <h3>Communication</h3> -->
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-industry"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Manufacturing</h4>
+																<!-- <h3>Management</h3> -->
+                            </div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+			<!-- third and fourth rows icons -->
+
+			
+			<div class="row">
+
+				
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-landmark-dome"></i>
+							</div>
+							<div class="squareContent">
+                                <h4 class="">Politics</h4>
+                                <!-- <h3>Communication</h3> -->
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-sign-hanging"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Real Estate</h4>
+																<!-- <h3>Communication</h3> -->
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-shop"></i>							
+							</div>
+							<div class="squareContent">
+																<h4 class="">Retail</h4>
+																<!-- <h3>Communication</h3> -->
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-person-swimming"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Sports</h4>
+																<h3>& Adventure</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="row">
+
+				
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-microchip"></i>
+							</div>
+							<div class="squareContent">
+                                <h4 class="">Technology</h4>
+                                <h3>and Innovation</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-earth-asia"></i>							
+							</div>
+							<div class="squareContent">
+																<h4 class="">Tourism</h4>
+																<!-- <h3>Issues and Crisis</h3> -->
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fa-solid fa-heart-pulse"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Well-being</h4>
+																<h3>and healthcare</h3>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="col-md-3 col-sm-6">
+					<div class="squareItem">
+						<div class="squareInnerContainer">
+							<div class="squareIcon">
+								<i class="fas fa-code"></i>
+							</div>
+							<div class="squareContent">
+																<h4 class="">Social Media</h4>
+																<h3>Management</h3>
+                            </div>
+						</div>
+					</div>
+				</div> -->
+
+
+			</div>
+
+		</div>
+
+
+	<!-- </div> -->
+
+
+	<!-- / services -->
+
+
+
+                  <!-- <p class="careers-p" >We will be your strategic communications partner, following you throughout all the steps until we reach any desired goal.<span class="spark3-text"></span>
+                    <br>
+                    We will make your brand powerfully express what it stands for and create real connections with your audience.
+                    <span class="spark2-text"></span></p> -->
+										
+                </div>
+
+              </div> <!-- / Row -->
+  
+          </div> <!-- / Container -->
+        </div> <!-- / Overlay -->
+  
+        <!-- <img src="assets/images/careers.jpg" alt="section-3 photo"> -->
+        <!-- <img src="assets/images/about/about.jpg" alt="section-3 photo"> -->
+
+        </div>
+
+      </div>
+    </div>
+    
+
+					<!-- <div class="container">
+						<div class="row">
+							<div class="col-md-6 pt-5 offset-3">
+								<h2 class="section__content__subtitle text-contrast-bg p-4 text-left">We will be your strategic communications partner, following you throughout all the steps until we reach any desired goal. We will make your brand powerfully express what it stands for and create real connections with your audience.<a href="#">Lorem</a>
+								</h2>
+							</div>
+						</div>
+					</div> -->
+
+				</div>
+
+				<!-- <div class="section__action__container">
+					<a class="btn section__action__btn action__btn__primary btn-primary-scd" href="#"
+						>Learn more</a>
+					<a class="section__action__btn action__btn__secondary" href="#"
+						>Blog</a>
+				</div> -->
+			</section>
+
+			
+
+			<section class="section seven">
+
+				<div class="section__content">
+					<h1 class="section__content__title ">Lorem, ipsum.</h1>
+				</div>
+
+				<div class="section__action__container">
+					<a class="section__action__btn action__btn__primary" href="#">Shop now</a>
+				</div>
+
+				<footer id="footer" class="pb-4 pt-4 footer mb-4"> <!-- Footer -->
+					<div class="container">
+						<div class="row text-center">
+							<div class="col-12 col-lg">
+								<a href="#">About</a>
+							</div>
+							<div class="col-12 col-lg">
+								<a href="#">Solutions</a>
+							</div>
+							<div class="col-12 col-lg">
+								<a href="#">Insights</a>
+							</div>
+							<div class="col-12 col-lg">
+								<a href="#">Careers</a>
+							</div>
+							<div class="col-12 col-lg">
+								<a href="#">Contact</a>
+							</div>
+						</div>
+					</div>
+				</footer> <!-- / Footer -->
+
+			</section>
+
+		</section>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
+			integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+
+		<script src="js/index.js"></script>
+	</body>
+	
 </html>

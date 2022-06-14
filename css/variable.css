@@ -1,0 +1,12 @@
+/* :root {
+	--primary-color: #181b21;
+	--secondary-color: #5c5d61;
+} */
+/* :root {
+	--primary-color: rgba(44,127,204,1);
+	--secondary-color: rgba(44,127,204,1)
+} */
+:root {
+	--primary-color: #fff;
+	--secondary-color: #fff;
+}
