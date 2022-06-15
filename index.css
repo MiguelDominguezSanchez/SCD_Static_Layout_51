@@ -28,7 +28,7 @@ body{
 }
 
 .turquoise-blue-gradient-transparent-BG {
-  background: linear-gradient(90deg, rgba(72,178,206,.5) 0%, rgba(44,127,204,.5) 100%);
+  background: linear-gradient(90deg, rgba(72,178,206,.8) 100%, rgba(44,127,204,.5) 0%);
 }
 
 
