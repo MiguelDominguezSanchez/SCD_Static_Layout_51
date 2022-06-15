@@ -563,6 +563,20 @@ height: 100%;
 
 /* / 220614 */
 
+/* 220615 */
+
+/* Single Page Options Solutions */
+
+.trust-list{
+  /* text-decoration: none; */
+  list-style: none;
+  /* font-size: 21px; */
+  font-size: 24px;
+}
+
+
+/* / 220615 */
+
 /* Footer */
 
 #footer {
